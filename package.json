@@ -1,0 +1,24 @@
+{
+  "name": "cypress-projektt",
+  "version": "1.0.0",
+  "description": "automatyzacja testów w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/checkbox.cy.js" 
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "testy"
+  ],
+  "author": "Mariusz Matuszewski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "cypress": "^13.6.4",
+    "cypress-dark": "^1.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
